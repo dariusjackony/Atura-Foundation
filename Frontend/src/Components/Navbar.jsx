@@ -7,8 +7,7 @@ function Hello(){
              <ul className="nav-links-container">
                  <li>HOME</li>
                  <li>ABOUT</li>
-                 <li>PROFILE</li>
-                 <li>LOGIN</li>
+                 <li><i className="fas fa-user"></i>PROFILE</li>
                  <button className="login-btn">
                        <i className="fas fa-sign-in-alt"></i> LOGIN
                  </button>
