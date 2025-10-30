@@ -32,6 +32,24 @@ const movies = [
 router.get("/movies", (req, res) => {
   res.json(movies);
 });
-// 
+
+// Route to get a movie by ID
+router.get("/movies/:id", (req, res) => {
+  const movieId = parseInt(req.params.id, 10);
+  const movie = movies.find(m => m.id === movieId);
+  if (movie) {
+    res.json(movie);
+  } else {
+    res.status(404).json({ message: "Movie not found" });
+  }
+})
+
+// Route to add a new movie
+router.post("/movies", (req, res) => {
+  const newMovie = req.body;
+  newMovie.id = movies.length + 1; // Simple ID assignment
+  movies.push(newMovie);
+  res.status(201).json(newMovie);
+});
 
 module.exports = router;
