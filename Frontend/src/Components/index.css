@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+ --main-color: #375534;
+ --red-color: #8F0B13;
+ --text-light: #f5f5f5;
+}
+body{
+    font-family: "Special Gothic", sans-serif;
+}

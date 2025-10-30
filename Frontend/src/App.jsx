@@ -1,9 +1,9 @@
-import Hello from "./Hello"
+import Navbar from "./Components/Navbar"
 
 function App() {
   return(
     <>
-    <Hello></Hello>
+    <Navbar/>
     </>
   )
 }
