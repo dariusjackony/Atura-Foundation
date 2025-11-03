@@ -3,14 +3,18 @@ function Hello(){
    
     return(
         <nav className="nav-container">
-            <div className="logo">ATURA</div>
              <ul className="nav-links-container">
-                 <li>HOME</li>
-                 <li>ABOUT</li>
+                 <li>LATEST</li>
+                 <li>SHORT FILMS</li>
+                 <li>DOCUMENTARY</li>
+                 <li>GALLERY</li>
+                 <div className="nav-actions">
                  <li><i className="fas fa-user"></i>PROFILE</li>
                  <button className="login-btn">
                        <i className="fas fa-sign-in-alt"></i> LOGIN
                  </button>
+                 </div>
+                 
              </ul>
              
         </nav>
