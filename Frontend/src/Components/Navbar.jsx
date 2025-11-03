@@ -1,5 +1,5 @@
 import "./styles/Navbar.css";
-function Hello(){
+function Navbar(){
    
     return(
         <nav className="nav-container">
@@ -8,12 +8,12 @@ function Hello(){
                  <li>SHORT FILMS</li>
                  <li>DOCUMENTARY</li>
                  <li>GALLERY</li>
-                 <div className="nav-actions">
-                 <li><i className="fas fa-user"></i>PROFILE</li>
+                 <li>ABOUT</li>
+                 
                  <button className="login-btn">
-                       <i className="fas fa-sign-in-alt"></i> LOGIN
+                       <i className="fas fa-sign-in-alt"></i> SIGN UP
                  </button>
-                 </div>
+                
                  
              </ul>
              
@@ -21,4 +21,4 @@ function Hello(){
     );
 }
 
-export default Hello;
+export default Navbar;
