@@ -1,0 +1,29 @@
+.footer-container{
+  justify-content: center;
+  text-align: center;
+}
+.footer-container hr{
+    width: 30%;
+    margin: 5px auto;
+    border: none;
+    background-color: var(--bg-secondary);
+    height: 1px;
+}
+.icon-store{
+    margin-top: 10px ;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.icon-store i{
+    color: var(--bg-secondary);
+    margin-right: 5px;
+    font-size: 14px;
+}
+.icon-store a{
+    color: var(--bg-secondary);
+    text-decoration: none;
+}
+.icon-store a:hover{
+    color: rgb(204, 203, 203);
+}

@@ -8,7 +8,12 @@
     list-style: none;
     cursor: pointer;
 }
-.nav-links-container li:hover {
+.nav-links-container li a{
+    color: var(--bg-primary);
+    text-decoration: none;
+
+}
+.nav-links-container li a:hover {
     color: var(--bg-secondary);
 }
 .nav-actions{

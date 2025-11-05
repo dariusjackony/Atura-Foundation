@@ -20,7 +20,6 @@ function VideoCard(){
             </div>
         
          </div>
-
           <div className="main-card">
             <div className="card">
                 <img src={pic1} alt="" />

@@ -1,15 +1,15 @@
 import "./styles/Navbar.css";
+import { Link } from "react-router-dom";
 function Navbar(){
    
     return(
         <nav className="nav-container">
              <ul className="nav-links-container">
-                 <li>LATEST</li>
-                 <li>SHORT FILMS</li>
-                 <li>DOCUMENTARY</li>
-                 <li>GALLERY</li>
-                 <li>ABOUT</li>
-                 
+                    <li><Link to="/">LATEST</Link></li>
+                    <li><Link to="/ShortFilms">SHORT FILMS</Link></li>
+                    <li><Link to="/Documentary">DOCUMENTARY</Link></li>
+                    <li><Link to="/Gallery">GALLERY</Link></li>
+                    <li><Link to="/About">ABOUT</Link></li>
                  <button className="login-btn">
                        <i className="fas fa-sign-in-alt"></i> SIGN UP
                  </button>
