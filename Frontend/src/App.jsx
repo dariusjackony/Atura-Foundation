@@ -7,7 +7,7 @@ import Latest from "./Pages/Latest";
 import Documentary from "./Pages/Documentary";
 import Gallery from "./Pages/Gallery";
 import About from "./Pages/About";
-import Login from "./Pages/Login";
+import SignUp from "./Pages/SignUp";
 function App() {
   return(
     <>
@@ -18,7 +18,7 @@ function App() {
       <Route path="/Gallery" element={<Gallery />}/>
       <Route path="/" element={<ShortFilms />}/>
       <Route path="/About" element={<About />}/>
-      <Route path="/Login" element={<Login />}/>
+      <Route path="/SignUp" element={<SignUp />}/>
     </Routes>
     
     <Footer />
