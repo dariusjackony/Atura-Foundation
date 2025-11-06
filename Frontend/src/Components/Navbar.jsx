@@ -10,10 +10,11 @@ function Navbar(){
                     <li><Link to="/Documentary">DOCUMENTARY</Link></li>
                     <li><Link to="/Gallery">GALLERY</Link></li>
                     <li><Link to="/About">ABOUT</Link></li>
-                 <button className="login-btn">
-                       <i className="fas fa-sign-in-alt"></i> SIGN UP
-                 </button>
-                
+                 <Link to="/Login">
+                    <button className="login-btn">
+                    <i className="fas fa-sign-in-alt"></i> SIGN UP
+                    </button>
+                 </Link>
                  
              </ul>
              
