@@ -1,9 +1,7 @@
 
 function Latest(){
     return(
-        <div>
-            <h1>Hallo Welcome to latest videos!</h1>
-        </div>
+        <VideoCard />
     )
 }
 export default Latest;
