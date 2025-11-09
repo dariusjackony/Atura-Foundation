@@ -13,6 +13,7 @@
 }
 .card:hover{
     color: rgb(204, 203, 203);
+    background-color: rgb(22, 22, 22);
 }
 .card img {
   width: 100%;
