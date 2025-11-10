@@ -1,20 +1,14 @@
+import ezama from "../images/zamboy.jpg";
+import bongomin from "../images/bongomin.jpg";
 export const team = [
     {
-        name: "Darius Jackony",
-        role: "Frontend Developer",
-        description: "Builds user interfaces using React, HTML, and CSS.",
-        image: ""
+        name: "BONGOMIN JIMMY OYAT",
+        role: "Co Founder Atura Foundation",
+        image: bongomin
     },
     {
-        name: "Ezama Steward",
+        name: "EZAMA STEWARD OBITRE",
         role: "Photographer",
-        description: "Takes nice shorts",
-        image: ""
-    },
-    {
-        name: "Lubangakene Isaac",
-        role: "Frontend Developer",
-        description: "Builds user interfaces using React, HTML, and CSS.",
-        image: ""
+        image: ezama
     }
 ]
