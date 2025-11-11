@@ -16,7 +16,7 @@ function About() {
         ))}
       </div>
     </section>
-    <section>
+    <section className="performers-s">
         <h2>Performers</h2>
          <div className="performers-names">
               <span>Musinguzi Jacob</span>,

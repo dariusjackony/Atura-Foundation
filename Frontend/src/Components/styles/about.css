@@ -3,12 +3,14 @@ section {
   text-align: center;
   margin-top: 20px;
 }
-
-h2 {
+section h2{
+  color: rgb(204, 202, 202);
   font-size: 1.5rem;
   margin-bottom: 30px;
   text-align: center;
+
 }
+
 .team-container {
   display: flex;
   align-items: center;       
@@ -25,6 +27,9 @@ h2 {
   width: 100%;
   max-width: 300px;
 }
+.team-member:hover{
+  background: rgb(17, 16, 16);
+}
 
 .team-member img {
   width: 100%;
@@ -36,7 +41,7 @@ h2 {
 
 
 .team-member h3 {
-  color: var(--bg-primary);
+  color: rgb(221, 221, 221);
   margin: 10px 0 5px;
 }
 
@@ -49,6 +54,9 @@ h2 {
 .team-member p {
   font-size: 0.9rem;
   color: #555;
+}
+.performers-s{
+  margin-bottom: 50px;
 }
 .performers-names {
   text-align: center; 
